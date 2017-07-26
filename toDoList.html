@@ -3,6 +3,7 @@
 
 <head>
   <title>React! React! React!</title>
+  <h1>TO DO: </h1>
   <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
   <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
@@ -10,26 +11,26 @@
   <style>
   body {
     padding: 50px;
-    background-color: #66CCFF;
+    background-color: pink;
     font-family: sans-serif;
   }
   .todoListMain .header input {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #FFF;
+    border: 2px solid gold;
   }
   .todoListMain .header button {
     padding: 10px;
     font-size: 16px;
     margin: 10px;
-    background-color: #0066FF;
+    background-color: black;
     color: #FFF;
-    border: 2px solid #0066FF;
+    border: 2px solid gold;
   }
 
   .todoListMain .header button:hover {
-    background-color: #003399;
-    border: 2px solid #003399;
+    background-color: gold;
+    border: 2px solid gold;
     cursor: pointer;
   }
 
@@ -41,7 +42,7 @@
 
 .todoListMain .theList li {
   color: #333;
-  background-color: rgba(255,255,255,.5);
+  background-color: gold;
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -102,6 +103,7 @@
 
         e.preventDefault();
       },
+
       render: function() {
         return (
           <div className="todoListMain">
